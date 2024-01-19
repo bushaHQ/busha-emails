@@ -1,0 +1,86 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-image
+          align="left"
+          src="https://res.cloudinary.com/busha-inc/image/upload/v1675706670/accounts/Email%20assets/Thank_you.png"
+          alt="Marketing Banner"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >You've been a rock star in 2022
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi {{first_name}},</mj-text>
+        <mj-text padding-bottom="20px"
+          >We want to say a big THANK YOU for choosing to trade with Busha in
+          2022. Your support is one of the reasons the team continues to work
+          hard every day to improve the app and customer experience.
+        </mj-text>
+        <mj-text padding-bottom="20px"
+          >The positive feedback we get about how Busha is making it easier to
+          <span style="font-weight: 700; font-style: italic"
+            >#LiveMorewithCrypto</span
+          >
+          makes us incredibly proud to serve you.
+        </mj-text>
+        <mj-text padding-bottom="20px">
+          We promise that in 2023, we will continue introducing better products
+          and improving your experience with Busha. We look forward to having
+          you join us on the ride and can't wait to show you what we have in
+          store.
+        </mj-text>
+        <mj-text>
+          Once again, thank you, {{first_name}}. We appreciate your trust and
+          support. 
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-image
+          href="https://youtu.be/bSWd9qhbopk"
+          src="https://res.cloudinary.com/busha-inc/image/upload/v1675707480/accounts/Email%20assets/Thank-you-thumbnail_2.png"
+          alt="Thank You For 2022🥂"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text>
+          Cheers To Trading More With Busha And a Wonderful 2023🥂
+        </mj-text>
+        <mj-text>Moyo. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-top="0" padding-bottom="0px">
+      <mj-column>
+        <mj-divider
+          border-width="1px"
+          border-style="solid"
+          border-color="#d9d9d9"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/mobile-store.mjml" />
+
+    <mj-include path="./components/footer.mjml" />
+  </mj-body>
+</mjml>

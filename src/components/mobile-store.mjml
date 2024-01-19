@@ -1,0 +1,33 @@
+<mj-section mj-class="body-section">
+  <mj-column>
+    <mj-text font-weight="600">
+      Get the latest Busha App for your phone</mj-text
+    >
+  </mj-column>
+</mj-section>
+
+<mj-section
+  mj-class="body-section"
+  padding-top="0"
+  padding-bottom="50px"
+  text-align="left"
+>
+  <mj-column width="140px" css-class="mobile-apps">
+    <mj-image
+      align="left"
+      width="130px"
+      href="https://www.busha.co"
+      src="https://res.cloudinary.com/busha-inc/image/upload/v1667487553/accounts/Email%20assets/google-play.png"
+      alt="Busha Logo"
+    />
+  </mj-column>
+  <mj-column width="140px">
+    <mj-image
+      align="left"
+      width="130px"
+      href="https://www.busha.co"
+      src="https://res.cloudinary.com/busha-inc/image/upload/v1667487559/accounts/Email%20assets/app-store.png"
+      alt="Busha Logo"
+    />
+  </mj-column>
+</mj-section>

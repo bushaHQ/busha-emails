@@ -1,0 +1,155 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-image
+          align="left"
+          height="200px"
+          src="https://res.cloudinary.com/busha-inc/image/upload/v1668283405/accounts/Email%20assets/marketing-banner.png"
+          alt="Marketing Banner"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Your main caption here
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi Tobi,</mj-text>
+        <mj-text padding-bottom="20px"> Welcome to Busha! </mj-text>
+        <mj-text padding-bottom="20px"
+          >In order to start using Busha, you need to verify your email address
+          by clicking the button below.
+        </mj-text>
+        <mj-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+          turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
+          fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus
+          elit sed risus.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="700" line-height="20px"
+          >Your sub caption here
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-top="0px">
+      <mj-column>
+        <mj-image
+          align="left"
+          height="160px"
+          src="https://res.cloudinary.com/busha-inc/image/upload/v1668284378/accounts/Email%20assets/marketing-random.png"
+          alt="Marketing Banner"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+          turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
+          fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus
+          elit sed risus.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="700" line-height="20px"
+          >Your sub caption here
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-top="0px">
+      <mj-column>
+        <mj-image
+          align="left"
+          height="160px"
+          src="https://res.cloudinary.com/busha-inc/image/upload/v1668284378/accounts/Email%20assets/marketing-random.png"
+          alt="Marketing Banner"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+          turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
+          fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus
+          elit sed risus.
+        </mj-text>
+
+        <mj-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <ol>
+            <li>
+              Massa eu vitae egestas eleifend sagittis, facilisi tincidunt.
+              torquent per conubia nostra, per inceptos himenaeos. Praesent
+              auctor purus luctus
+            </li>
+            <li>Suspendisse convallis urna, sit gravida. Turpis sit pellent</li>
+            <li>esque semper pellentesque ornare phasellus purus massa.</li>
+            <li>Elit praesent amet urna leo tortor axaenean pulvinar nulla.</li>
+            <li>Sed morbi egestas tortor cras consectetur nunc etiam dolor.</li>
+            <li>Orci viverra purus faucibus lectus tincidunt scele</li>
+          </ol>
+        </mj-text>
+
+        <mj-text padding-bottom="20px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text
+        >
+
+        <mj-list padding-left="14px">
+          <mj-li>An issue with your BVN.</mj-li>
+          <mj-li>Upload of blurry documents.</mj-li>
+          <mj-li>Wrong file size.</mj-li>
+          <mj-li>Wrong document selection.</mj-li>
+        </mj-list>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="50px"
+          >If you did not sign up for this account you can ignore this email and
+          the account will be deleted.
+        </mj-text>
+        <mj-text> Cheers 💚, </mj-text>
+        <mj-text> The Busha Team. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-top="0" padding-bottom="0px">
+      <mj-column>
+        <mj-divider
+          border-width="1px"
+          border-style="solid"
+          border-color="#d9d9d9"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/mobile-store.mjml" />
+
+    <mj-include path="./components/footer.mjml" />
+  </mj-body>
+</mjml>

@@ -1,0 +1,187 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text
+          font-size="24px"
+          font-weight="700"
+          line-height="140%"
+          padding-bottom="20px"
+          >[Important] Busha account deletion request.
+        </mj-text>
+
+        <mj-divider border-width="1px" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi {{first_name}},</mj-text>
+        <mj-text padding-bottom="0px"
+          >You are attempting to delete your Busha Account. Please note that
+          once this is initiated:</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-top="0px">
+      <mj-column>
+        <mj-list padding-left="8px" padding-bottom="10px">
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              Your account will be deleted and all access to your wallets along
+              with other affiliated services (such as Yield and Commerce) will
+              be revoked.
+            </div></mj-li
+          >
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              You will be unable to log in to this account through this device
+              or use any other device associated with your account.
+            </div>
+          </mj-li>
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              All outstanding fees and payments due to Busha or any user of the
+              Busha platform will be deducted from your residual deposits before
+              your closure request is approved.
+            </div></mj-li
+          >
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              Deletion request is stopped when you receive an inflow on the
+              Wallet or Commerce services.
+            </div></mj-li
+          >
+          <mj-li>
+            <div style="padding-bottom: 0px">
+              We will retain some of your records for a minimum period of five
+              (5) years after the deletion of your account in accordance with
+              applicable laws and regulations.
+            </div></mj-li
+          >
+        </mj-list>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-top="0" padding-bottom="20px">
+      <mj-column>
+        <mj-divider
+          border-width="1px"
+          border-style="solid"
+          border-color="#d9d9d9"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text font-weight="700" padding-bottom="10px"
+          >Busha Wallet & Exchange Service Info:</mj-text
+        >
+
+        <mj-list padding-left="8px" padding-bottom="10px">
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              You will lose all pending and outstanding inflows and payments to
+              your wallet.
+            </div></mj-li
+          >
+          <mj-li>
+            <div style="padding-bottom: 0px">
+              You will be unable to deposit, trade, have any open orders or
+              initiate withdrawals.
+            </div>
+          </mj-li>
+        </mj-list>
+      </mj-column>
+    </mj-section>
+
+    {{#if has_business}}
+    <mj-section mj-class="body-section" padding-top="0" padding-bottom="20px">
+      <mj-column>
+        <mj-divider
+          border-width="1px"
+          border-style="solid"
+          border-color="#d9d9d9"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text font-weight="700" padding-bottom="10px"
+          >Busha Commerce Info:
+        </mj-text>
+
+        <mj-list padding-left="8px" padding-bottom="10px">
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              Your commerce businesses, if you have any, will be closed.
+            </div></mj-li
+          >
+          <mj-li>
+            <div style="padding-bottom: 0px">
+              You will be unable to create payment links, invoices, and manage
+              your team.
+            </div>
+          </mj-li>
+        </mj-list>
+      </mj-column>
+    </mj-section>
+    {{/if}}
+
+    <mj-section mj-class="body-section" padding-top="0" padding-bottom="20px">
+      <mj-column>
+        <mj-text padding-bottom="20px">
+          If you still want to go through this process, use this OTP:
+        </mj-text>
+
+        <mj-text font-size="32px" font-weight="700" padding-bottom="20px">
+          {{code}}
+        </mj-text>
+
+        <mj-text padding-bottom="20px">
+          The verification code is valid for 1 minute.
+        </mj-text>
+
+        <mj-text>
+          Once your deletion request is processed, you can still log back into
+          your account to stop the deletion process by yourself
+          <span style="font-weight: 700">within the next 5 days</span>, after
+          which you would need to create a new account to use Busha again.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section
+      mj-class="body-section"
+      padding-top="15px"
+      padding-bottom="50px"
+    >
+      <mj-column>
+        <mj-text font-weight="700">Important</mj-text>
+        <mj-text padding-bottom="20px">
+          If you did not initiate this and believe someone else made this
+          request, please contact support immediately at
+          <a
+            rel="noopener"
+            href="mailto:support@busha.co?subject=&body="
+            target="_blank"
+            class="link"
+            >support@busha.co</a
+          >. If you made this request, you can ignore it.
+        </mj-text>
+
+        <mj-text> #LiveMoreWithCrypto, </mj-text>
+        <mj-text> Busha Support 💚. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/footer-alt.mjml" />
+  </mj-body>
+</mjml>

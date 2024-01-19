@@ -1,0 +1,65 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text
+          font-size="24px"
+          font-weight="700"
+          line-height="140%"
+          padding-bottom="20px"
+          >[Important] Your account is scheduled for deletion! ⏰
+        </mj-text>
+
+        <mj-divider border-width="1px" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi {{first_name}},</mj-text>
+        <mj-text padding-bottom="20px"
+          >This is a reminder that your Busha account will be permanently
+          deleted in two days.</mj-text
+        >
+        <mj-text padding-bottom="20px"
+          >Your account, along with any related data, & access will be removed
+          permanently.
+        </mj-text>
+        <mj-text padding-bottom="0px"
+          >If you wish to cancel this process, log in to your account
+          <span style="font-weight: 700">within the next 48 hours</span>, to
+          stop the deletion.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-button
+          align="left"
+          href="https://calendly.com/d/2pd-fnq-39k/busha-commerce-usability-research"
+          inner-padding="14px 30px"
+        >
+          Stop account deletion
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="40px"
+          >If you have any questions or require additional information, kindly
+          contact <a class="link">support@busha.co</a>.
+        </mj-text>
+        <mj-text> #LiveMoreWithCrypto, </mj-text>
+        <mj-text> Busha Support 💚. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/footer-alt.mjml" />
+  </mj-body>
+</mjml>

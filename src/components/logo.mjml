@@ -1,0 +1,10 @@
+<mj-section padding-top="40px" mj-class="body-section">
+  <mj-column>
+    <mj-image
+      align="left"
+      width="94px"
+      src="https://res.cloudinary.com/busha-inc/image/upload/v1662465372/pug/Email%20Assets/busha_logo.png"
+      alt="Busha Logo"
+    />
+  </mj-column>
+</mj-section>

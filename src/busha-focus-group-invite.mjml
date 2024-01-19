@@ -1,0 +1,139 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text
+          font-size="24px"
+          font-weight="700"
+          line-height="140%"
+          padding-bottom="20px"
+          >You’ve been chosen!
+        </mj-text>
+
+        <mj-divider border-width="1px" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="10px">Yes! You’ve been chosen! </mj-text>
+        <mj-text padding-bottom="20px"
+          >Thank you for opting into our study. Your input helps us ensure we
+          continue to build products you love 💚.
+        </mj-text>
+        <mj-text padding-bottom="0px"
+          >For this session, we will be conducting a
+          <span style="font-weight: 700">focus group study</span>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px" font-weight="700"
+          >What is a focus group?</mj-text
+        >
+        <mj-text padding-bottom="10px"
+          >It’s a form of research in which a small group come together to
+          discuss ideas and thoughts around a topic.
+        </mj-text>
+        <mj-text padding-bottom="0px"
+          >For this session, the topic is -
+          <span style="color: #12a633"
+            >What do you want in an online community at Busha?</span
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px" font-weight="700"
+          >What is expected of me; how to prepare?</mj-text
+        >
+        <mj-text padding-bottom="10px"
+          >Don’t worry; you can do this from the comfort of your home/office.
+        </mj-text>
+        <mj-text padding-bottom="20px"
+          >This session will be done via a virtual call, which you’ll be
+          scheduled for when you choose a date below.
+        </mj-text>
+        <mj-text padding-bottom="20px"
+          >During the session, you’ll be joined by 5 other like-minded
+          participants to share your thoughts. A facilitator from Busha will
+          guide the conversation by asking a few questions to help carry
+          everyone along.
+        </mj-text>
+        <mj-text padding-bottom="20px"
+          >Remember, there are no right or wrong answers – the goal is to
+          understand different viewpoints.
+        </mj-text>
+        <mj-text padding-bottom="20px"
+          >This entire exercise should take about
+          <span style="font-weight: 700">30 minutes</span> (more or less).
+        </mj-text>
+        <mj-text padding-bottom="20px"
+          >Because this will be done virtually, please ensure you’ve read
+          through the
+          <a
+            style="color: #12a633"
+            href="https://docs.google.com/document/d/1mGMeJpgsThwi8PYwmAtDvvwymW7sQ6RB99sfW2CMcxg/edit?usp=sharing"
+            target="_blank"
+            >Terms and Conditions</a
+          >.
+        </mj-text>
+
+        <mj-text>
+          Alright, so you can go ahead to
+          <a
+            style="color: #12a633"
+            href="https://calendly.com/d/y5d-w86-x3d/busha-community-focus-group"
+            target="_blank"
+            >choose a date slot</a
+          >
+          that works for you [between June 30 - July 7]. There are only 6 spots
+          per date, so choose as soon as you can.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw mj-class="body-section">
+    <mj-column>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8CCLbn-eP-u6XELa4EzuPnBfMNgYbKrGkUinIVDI5i8G9Yw/viewform?embedded=true" width="640" height="852" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </mj-column>
+    </mj-raw>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">
+          NB: You can choose to opt out at any time, no pressure. But to receive
+          the reward, you will need to have contributed at least 80% of the
+          required time into the research session.
+        </mj-text>
+        <mj-text padding-bottom="20px">
+          <span style="font-style: italic">
+            Please note that future follow up will be
+            via <span style="color: #12a633"
+            > research@busha.co</span
+          >
+        </mj-text>
+        <mj-text>#LiveMoreWithCrypto </mj-text>
+        <mj-text> Busha Research 💚. </mj-text>
+
+        <mj-divider
+          padding-top="30px"
+          padding-bottom="20px"
+          border-width="1px"
+          border-style="solid"
+          border-color="#d9d9d9"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/footer.mjml" />
+  </mj-body>
+</mjml>

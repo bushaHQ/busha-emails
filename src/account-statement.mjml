@@ -1,0 +1,62 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%">
+          Your Transaction Statement is Here!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section
+      mj-class="body-section"
+      padding-top="24px"
+      padding-bottom="24px"
+    >
+      <mj-column>
+        <mj-divider
+          border-width="1px"
+          border-style="solid"
+          border-color="#d9d9d9"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-top="0px">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi {{first_name}},</mj-text>
+        <mj-text padding-bottom="20px">
+          Your requested transaction statement for
+          <span style="font-weight: 700">{{date}}</span> for has been processed
+          and is attached to this mail.
+        </mj-text>
+
+        <mj-text>
+          If you didn’t initiate this request or need assistance, kindly contact
+          our support team via in-app chat or at
+          <a
+            rel="noopener"
+            href="mailto:support@busha.co?subject=&body="
+            target="_blank"
+            style="text-decoration: none; color: #16cb3e"
+            href="mailto:support@busha.co"
+            >support@busha.co </a
+          >.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-bottom="40px">
+      <mj-column>
+        <mj-text> #LiveMoreWithCrypto, </mj-text>
+        <mj-text> The Busha Team 💚. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/footer-alt.mjml" />
+  </mj-body>
+</mjml>

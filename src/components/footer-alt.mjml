@@ -1,0 +1,49 @@
+<mj-section
+  background-color="#F4F7FA"
+  padding-left="30px"
+  padding-right="30px"
+  padding-top="25px"
+  padding-bottom="25px"
+>
+  <mj-column padding="7.5px" padding-left="0px" padding-right="0px">
+    <mj-text
+      font-size="12px"
+      line-height="17px"
+      css-class="copyright"
+      padding="0px"
+      >© {{year}} Busha Digital Limited.</mj-text
+    >
+  </mj-column>
+
+  <mj-column>
+    <mj-social
+      css-class="socials-container"
+      icon-size="12px"
+      mode="horizontal"
+      inner-padding="0px 0px 0px 30px"
+    >
+      <mj-social-element
+        href="https://www.instagram.com/getbusha/"
+        src="https://res.cloudinary.com/busha-inc/image/upload/v1698077440/pug/Email%20Assets/instagram.png"
+      >
+      </mj-social-element>
+
+      <mj-social-element
+        href="https://twitter.com/getBusha"
+        src="https://res.cloudinary.com/busha-inc/image/upload/v1691494135/pug/Email%20Assets/x.png"
+      >
+      </mj-social-element>
+
+      <mj-social-element
+        href="https://tribe.busha.co/home"
+        src="https://res.cloudinary.com/busha-inc/image/upload/v1698077012/pug/Email%20Assets/circle.png"
+      />
+
+      <mj-social-element
+        background-color="#212121"
+        name="linkedin-noshare"
+        href="https://www.linkedin.com/company/getbusha/"
+      />
+    </mj-social>
+  </mj-column>
+</mj-section>

@@ -1,0 +1,75 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Welcome to Busha!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section
+      mj-class="body-section"
+      padding-top="25px"
+      padding-bottom="25px"
+    >
+      <mj-column>
+        <mj-divider
+          border-width="1px"
+          border-style="solid"
+          border-color="#d9d9d9"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi Ifeoluwa,</mj-text>
+        <mj-text padding-bottom="20px">Welcome to Busha! 🎉</mj-text>
+
+        <mj-text padding-bottom="20px">
+          Busha is a flexible platform that allows you to buy and sell crypto.
+          We want you to know that you're in awesome hands.
+        </mj-text>
+        <mj-text padding-bottom="20px">
+          Now, tell us more about yourself!
+        </mj-text>
+        <mj-text padding-bottom="20px">
+          Visit the app or
+          <a
+            class="link"
+            rel="noopener"
+            href="https://www.busha.co"
+            target="_blank"
+            >website</a
+          >
+          and update your profile to start trading instantly on the app.
+        </mj-text>
+        <mj-text padding-bottom="20px">
+          Thank you for choosing to go on your crypto journey with us. #WAGMI
+        </mj-text>
+
+        <mj-text> 💚, </mj-text>
+        <mj-text> The Busha Team. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-top="0" padding-bottom="0px">
+      <mj-column>
+        <mj-divider
+          border-width="1px"
+          border-style="solid"
+          border-color="#d9d9d9"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/mobile-store.mjml" />
+
+    <mj-include path="./components/footer.mjml" />
+  </mj-body>
+</mjml>

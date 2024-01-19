@@ -1,0 +1,158 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text
+          font-size="24px"
+          font-weight="700"
+          line-height="140%"
+          padding-bottom="20px"
+          >Your Voice Matters
+        </mj-text>
+
+        <mj-divider border-width="1px" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="10px">Dear {{first_name}},</mj-text>
+        <mj-text padding-bottom="20px"
+          >Yes! Thank you for opting into our official Beta Tester program. Your
+          input helps us ensure we continue to build products you love 💚.
+        </mj-text>
+        <mj-text padding-bottom="0px"
+          >For this first research session, we will be conducting
+          <span style="font-weight: 700"
+            >usability testing of Busha Commerce</span
+          >.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px" font-weight="700"
+          >What is the usability testing all about?</mj-text
+        >
+        <mj-text padding-bottom="10px"
+          >It’s a form of research which involves observing participants as they
+          interact with a product. This means you will be given access to our
+          latest product — Busha Commerce — while we (well, 2-3 people on the
+          Busha Research team) will observe your interaction to take feedback.
+          Easy peasy.
+        </mj-text>
+        <mj-text padding-bottom="20px"
+          >This entire exercise should take about 30 minutes (or less). Because
+          this will be done virtually, there are three (3) things for you to
+          note:</mj-text
+        >
+
+        <mj-list padding-left="8px" padding-bottom="10px">
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              <span style="font-weight: 600"
+                >You will need to have your video camera and mic turned on</span
+              >
+              so we can observe your facial expressions and hear your comments.
+            </div></mj-li
+          >
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              <span style="font-weight: 600"
+                >You will need to turn on screen sharing</span
+              >
+              so we can observe as you interact with the product.
+            </div>
+          </mj-li>
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              <span style="font-weight: 600"
+                >You will need to complete a pre-determined list of tasks</span
+              >
+              that will be provided e.g, Create A Checkout Link.
+            </div></mj-li
+          >
+        </mj-list>
+
+        <mj-text>
+          Also, you will be asked a few questions about how your experience went
+          afterwards. Further instructions will be provided on the day.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px" font-weight="700"
+          >What are your next steps?</mj-text
+        >
+
+        <mj-text padding-bottom="10px" padding-left="10px"
+          >1. Ensure you’ve read through the
+          <a
+            href="https://docs.google.com/document/d/1tjvYxNgK2jDChj5QdLHcjNoFyL_74WGzGKBtWuc5gxo/edit"
+            style="color: #212121"
+            >Terms and Conditions</a
+          >
+          .</mj-text
+        >
+        <mj-text padding-bottom="10px" padding-left="10px"
+          >2. Choose your preferred date and time for the usability testing. You
+          can
+          <a
+            href="https://calendly.com/d/2pd-fnq-39k/busha-commerce-usability-research"
+            style="color: #12a633"
+            target="_blank"
+            >use this link</a
+          >.
+        </mj-text>
+        <mj-text padding-bottom="20px" padding-left="10px"
+          >3. Get your laptop charged and your camera screen cleaned
+        </mj-text>
+
+        <mj-text padding-bottom="0px"
+          >Please note that you can choose to opt-out at any time, no pressure.
+          But to receive the reward, you will need to have contributed at least
+          80% of the required time into the session.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-button
+          align="left"
+          href="https://calendly.com/d/2pd-fnq-39k/busha-commerce-usability-research"
+          inner-padding="14px 30px"
+        >
+          Pick interview time
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">
+          Thank you for your continued support of Busha.
+        </mj-text>
+        <mj-text>#LiveMoreWithCrypto </mj-text>
+        <mj-text> Busha Research 💚. </mj-text>
+
+        <mj-divider
+          padding-top="30px"
+          padding-bottom="20px"
+          border-width="1px"
+          border-style="solid"
+          border-color="#d9d9d9"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/footer.mjml" />
+  </mj-body>
+</mjml>

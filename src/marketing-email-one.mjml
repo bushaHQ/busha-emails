@@ -1,0 +1,163 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-image
+          align="left"
+          src="https://res.cloudinary.com/busha-inc/image/upload/v1668283405/accounts/Email%20assets/marketing-banner.png"
+          alt="Marketing Banner"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Introducing Busha Commerce: Taking your Dreams to the Moon. 🚀
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi {{firstName}},</mj-text>
+        <mj-text padding-bottom="20px"
+          >Last year, we introduced
+          <a
+            href="https://blog.busha.co/transcending-regular-savings-using-crypto/"
+            style="color: #16cb3e"
+            >Busha Yield</a
+          >, and you loved it!</mj-text
+        >
+        <mj-text padding-bottom="20px"
+          >Then there was
+          <a
+            href="https://blog.busha.co/busha-spend-is-live-what-to-expect/"
+            style="color: #16cb3e"
+            >Busha Spend</a
+          >, an in-app feature that allows you to buy airtime, data and vouchers
+          from your favourite stores (like Shoprite, Jumia, and much more) using
+          crypto and regular fiat currency, plus added cashback. Woah!
+        </mj-text>
+        <mj-text padding-bottom="20px">
+          Now, we’re excited to welcome a new product designed just for you -
+          <span style="color: #16cb3e; font-weight: 500">Busha Commerce</span>
+          .
+        </mj-text>
+        <mj-text padding-bottom="20px">
+          This all-in-one platform allows small, medium and large-scale
+          businesses to accept payment from anywhere in the world with the most
+          popular cryptocurrencies. It will also enable buyers to shop using
+          crypto payments. So, global payments, local payments, you name it!
+        </mj-text>
+        <mj-text>
+          No more dorm account hassle, no maintenance fees, no charge-backs, and
+          no currency limitations. Straight to a universal asset, available
+          across borders, which converts to your local fiat currency.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px" font-weight="700"
+          >So, what does Busha Commerce offer you?</mj-text
+        >
+
+        <mj-list padding-left="8px">
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              You can accept cryptocurrency payments from customers anywhere in
+              the world, with a dashboard that allows your business(es) to
+              create checkout links easily.
+            </div></mj-li
+          >
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              You can readily withdraw your earnings to help facilitate your
+              business goals and revenue growth.
+            </div>
+          </mj-li>
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              You can get paid in up to six assets! Bitcoin, ETH, USDT, USDC,
+              NGN and KES.
+            </div></mj-li
+          >
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              And if you are a crypto-sceptic, you can receive your payment in
+              dollar stablecoins and convert your payments into fiat instantly.
+            </div></mj-li
+          >
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              Free transactions! There are no charges for receiving
+              payments/donations.
+            </div></mj-li
+          >
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              A dedicated team of customer support personnel, available round
+              the clock, 24/7.
+            </div></mj-li
+          >
+          <mj-li>
+            <div style="padding-bottom: 10px">
+              You get paid instantly, with no delays or chargebacks.
+            </div></mj-li
+          >
+        </mj-list>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hang on; we’re not done.</mj-text>
+        <mj-text padding-bottom="20px">
+          For users who want to integrate this feature into their e-commerce
+          websites, our well-documented API library has been made available on
+          the
+          <a href="https://www.busha.co/commerce" style="color: #16cb3e"
+            >Busha Commerce website</a
+          >.
+        </mj-text>
+        <mj-text padding-bottom="20px">
+          So what are you waiting for? Take your dreams to the moon with Busha
+          Commerce today!
+        </mj-text>
+        <mj-text>
+          Visit
+          <a href="https://www.busha.co/commerce" style="color: #16cb3e"
+            >www.busha.co/commerce</a
+          >.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text>With Busha, take your dreams to the moon! 🚀 </mj-text>
+        <mj-text> Kachi </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-top="0" padding-bottom="0px">
+      <mj-column>
+        <mj-divider
+          border-width="1px"
+          border-style="solid"
+          border-color="#d9d9d9"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/mobile-store.mjml" />
+
+    <mj-include path="./components/footer.mjml" />
+  </mj-body>
+</mjml>

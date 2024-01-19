@@ -1,0 +1,60 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text
+          font-size="24px"
+          font-weight="700"
+          line-height="140%"
+          padding-bottom="20px"
+          >Your account deletion request has been stopped. 🫡
+        </mj-text>
+
+        <mj-divider border-width="1px" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi {{first_name}},</mj-text>
+        <mj-text padding-bottom="20px"
+          >We're happy to let you know that your account deletion request has
+          been cancelled.</mj-text
+        >
+        <mj-text padding-bottom="20px"
+          >Your account is now safe and secure, and you can resume using it
+          without any restrictions.
+        </mj-text>
+        <mj-text padding-bottom="0px"
+          >We look forward to you continuing to enjoy our range of products and
+          services.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="40px"
+          >If you have any questions or require additional information, kindly
+          contact <a class="link">support@busha.co</a>.
+        </mj-text>
+        <mj-text> #LiveMoreWithCrypto, </mj-text>
+        <mj-text> Busha Support 💚. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/mobile-store.mjml" />
+
+    <mj-include path="./components/footer-alt.mjml" />
+  </mj-body>
+</mjml>

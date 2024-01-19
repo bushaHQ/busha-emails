@@ -1,0 +1,65 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text
+          font-size="24px"
+          font-weight="700"
+          line-height="140%"
+          padding-bottom="20px"
+          >Your account will be deleted today. 😟
+        </mj-text>
+
+        <mj-divider border-width="1px" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi {{first_name}},</mj-text>
+        <mj-text padding-bottom="20px"
+          >This is a reminder that your account deletion request will be
+          finalised today.</mj-text
+        >
+        <mj-text padding-bottom="20px"
+          >If you don't take action, your account and all associated data will
+          be permanently removed by the end of the day.
+        </mj-text>
+        <mj-text padding-bottom="0px"
+          >However, if you wish to keep your account active, you can log in
+          <span style="font-weight: 700"> before the end of the day</span>, and
+          stop the deletion process.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-button
+          align="left"
+          href="https://calendly.com/d/2pd-fnq-39k/busha-commerce-usability-research"
+          inner-padding="14px 30px"
+        >
+          Stop account deletion
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="40px"
+          >If you have any questions or require additional information, kindly
+          contact <a class="link">support@busha.co</a>.
+        </mj-text>
+        <mj-text> #LiveMoreWithCrypto, </mj-text>
+        <mj-text> Busha Support 💚. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/footer-alt.mjml" />
+  </mj-body>
+</mjml>
