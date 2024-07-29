@@ -25,11 +25,12 @@
         <mj-text padding-bottom="20px">
           We've received your request to delete your account.</mj-text
         >
-        <mj-text padding-bottom="20px">
+        <mj-text>
           While we'd be sad to see you go, we understand that circumstances
           change. However, we're unable to process your deletion request at this
           time due to:
         </mj-text>
+        <mj-text font-weight="600" padding-bottom="20px"> {{reason}} </mj-text>
         <mj-text padding-bottom="0px">
           Please log into your Busha account via this link (insert link)  to
           rectify this (these) issue(s) and proceed with your deletion.
