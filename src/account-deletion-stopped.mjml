@@ -32,7 +32,8 @@
         </mj-text>
         <mj-text font-weight="600" padding-bottom="20px"> {{reason}} </mj-text>
         <mj-text padding-bottom="0px">
-          Please log into your Busha account via this link (insert link)  to
+          Please log into your Busha account via this
+          <a class="link" href="https://accounts.busha.co/login">link</a> to
           rectify this (these) issue(s) and proceed with your deletion.
         </mj-text>
       </mj-column>
