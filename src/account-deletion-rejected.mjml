@@ -12,7 +12,7 @@
           line-height="140%"
           padding-bottom="20px"
         >
-          Your account deletion request has been stopped
+          Account Deletion Request - Action Required.
         </mj-text>
 
         <mj-divider border-width="1px" border-color="lightgrey" />
@@ -23,16 +23,18 @@
       <mj-column>
         <mj-text padding-bottom="20px">Dear {{first_name}},</mj-text>
         <mj-text padding-bottom="20px">
-          We're happy to let you know that your account deletion request has
-          been cancelled</mj-text
+          We've received your request to delete your account.</mj-text
         >
-        <mj-text padding-bottom="20px">
-          Your account is now safe and secure, and you can resume using it
-          without any restrictions.
+        <mj-text>
+          While we'd be sad to see you go, we understand that circumstances
+          change. However, we're unable to process your deletion request at this
+          time due to:
         </mj-text>
+        <mj-text font-weight="600" padding-bottom="20px"> {{reason}} </mj-text>
         <mj-text padding-bottom="0px">
-          We look forward to you continuing to enjoy our range of products and
-          services.
+          Please log into your Busha account via this
+          <a class="link" href="https://accounts.busha.co/login">link</a> to
+          rectify this (these) issue(s) and proceed with your deletion.
         </mj-text>
       </mj-column>
     </mj-section>
@@ -40,8 +42,9 @@
     <mj-section mj-class="body-section">
       <mj-column>
         <mj-text padding-bottom="20px"
-          >If you have any questions or require additional information, kindly
-          contact <a class="link">support@busha.co</a>.
+          >If you didn’t initiate this request or require assistance, please
+          contact support immediately via in-app chat or at
+          <a class="link">support@busha.co</a>.
         </mj-text>
         <mj-text> #LiveMoreWithCrypto, </mj-text>
         <mj-text> Busha Support 💚. </mj-text>
