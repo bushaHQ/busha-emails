@@ -39,12 +39,18 @@
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="body-section">
+    <mj-section mj-class="body-section" padding-top="0">
       <mj-column>
         <mj-text padding-bottom="20px"
           >If you didn’t initiate this request or require assistance, please
           contact support immediately via in-app chat or at
-          <a class="link">support@busha.co</a>.
+          <a
+            rel="noopener"
+            href="mailto:support@busha.co?subject=&body="
+            target="_blank"
+            class="link"
+            >support@busha.co</a
+          >.
         </mj-text>
         <mj-text> #LiveMoreWithCrypto, </mj-text>
         <mj-text> Busha Support 💚. </mj-text>
