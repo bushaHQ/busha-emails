@@ -1,0 +1,41 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Manage Crypto Volatility by setting up Payment Threshold!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column >
+        <mj-text padding-bottom="20px">Hi Damilare!</mj-text>
+        <mj-text padding-bottom="20px">
+        Your payment threshold has been reset. 
+        </mj-text>
+        <mj-text padding-bottom="20px">
+        With the Flexible Payment settings on your account, you can manage crypto volatility or changes in the prices of crypto by setting up payment thresholds.
+        </mj-text>
+
+        <mj-button
+          align="left"
+          href=""
+          inner-padding="14px 30px"
+        >
+        Set payment thresholds
+        </mj-button>
+        <mj-text padding-top="20px">Thank you for choosing Busha.</mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-include path="./components/with-love-busha.mjml" />
+
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

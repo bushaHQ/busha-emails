@@ -1,0 +1,30 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >
+          <mj-text style='color: #B2B2B2'>[Insert business name]</mj-text> is Global!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="60px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi Damilare,</mj-text>
+        <mj-text padding-bottom="20px">You have just created your first ever Busha Business Checkout!</mj-text>
+        <mj-text padding-bottom="20px">What a rockstar! 🥳</mj-text>
+        <mj-text padding-bottom="20px">You can access your checkout link below. </mj-text>
+        <mj-text padding-bottom="20px">Click <a class='link'>here</a> to return to your dashboard.</mj-text>
+        <mj-text padding-bottom="20px">If you believe you received this email erroneously, please ignore.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

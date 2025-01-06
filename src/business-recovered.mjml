@@ -1,0 +1,41 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Your Business Has Been Recovered!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column >
+        <mj-text padding-bottom="20px">Hi Damilare!</mj-text>
+        <mj-text padding-bottom="20px">
+        You have successfully recovered your account <mj-text style="color: #b2b2b2">[Business name]</mj-text> , and can now use the Busha Business services.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text font-size='16px' font-weight="700">Important</mj-text>
+        <mj-text padding-bottom="20px">
+          If you have any issues with this transaction, you can contact our support team via email at 
+          <a class="link" style="text-decoration: none"
+            rel="noopener"
+            href="mailto:support@busha.co?subject=&body="
+            target="_blank">support@busha.co</a>, or chat with us via in-app chat.</mj-text>
+        <mj-text>Thank you for choosing Busha.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

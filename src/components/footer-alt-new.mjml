@@ -1,0 +1,63 @@
+<mj-section
+  background-color="#E5E5E5"
+  padding-left="30px"
+  padding-right="30px"
+  padding-top="25px"
+  padding-bottom="25px"
+>
+  <mj-column width="70%" padding="0" padding-left="0px" padding-right="0px">
+    <mj-text align="left" font-size='10px'>
+      <a href="#" style="color: #666666; padding: 0 4px;">Home</a>
+      <a href="#" style="color: #666666; padding: 0 4px;">About</a>
+      <a href="#" style="color: #666666; padding: 0 4px;">Products</a>
+      <a href="#" style="color: #666666; padding: 0 4px;">Contact</a>
+    </mj-text>
+    <mj-text
+      font-size="12px"
+      line-height="17px"
+      css-class="copyright"
+      padding-top="12px"
+      color='#666666'
+      >© {{year}} Busha Business, a product of Busha (RC 1495049).</mj-text
+    >
+    <mj-text 
+      align="left" 
+      font-size="12px"
+      line-height="17px"
+      color='#666666'
+      padding-top="12px"
+      css-class="copyright">All rights reserved.</mj-text>
+  </mj-column>
+
+  <mj-column width="30%">
+    <mj-social
+      css-class="socials-container"
+      icon-size="12px"
+      mode="horizontal"
+      inner-padding="0px 0px 0px 18px"
+    >
+      <mj-social-element
+        href="https://www.instagram.com/getbusha/"
+        src="https://res.cloudinary.com/busha-inc/image/upload/v1698077440/pug/Email%20Assets/instagram.png"
+      >
+      </mj-social-element>
+
+      <mj-social-element
+        href="https://twitter.com/getBusha"
+        src="https://res.cloudinary.com/busha-inc/image/upload/v1691494135/pug/Email%20Assets/x.png"
+      >
+      </mj-social-element>
+
+      <mj-social-element
+        href="https://tribe.busha.co/home"
+        src="https://res.cloudinary.com/busha-inc/image/upload/v1698077012/pug/Email%20Assets/circle.png"
+      />
+
+      <mj-social-element
+        background-color="#212121"
+        name="linkedin-noshare"
+        href="https://www.linkedin.com/company/getbusha/"
+      />
+    </mj-social>
+  </mj-column>
+</mj-section>

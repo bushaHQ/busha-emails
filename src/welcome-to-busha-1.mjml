@@ -1,0 +1,36 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Crypto Payments Unlocked!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Your business is on its way to becoming global!</mj-text>
+        <mj-text padding-bottom="0px">Get started in just a few clicks.</mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="body-section" width>
+      <mj-button
+        align="left"
+        href=""
+        inner-padding="14px 30px"
+      >
+      Get started
+      </mj-button>
+    </mj-section>
+
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

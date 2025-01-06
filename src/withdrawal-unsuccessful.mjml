@@ -1,0 +1,116 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Withdrawal Unsuccessful
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column >
+        <mj-text padding-bottom="20px">Hi Damilare!</mj-text>
+        <mj-text padding-bottom="20px">
+          Your attempted withdrawal of <mj-text style="font-weight: 700">2,500 USD</mj-text> was unsuccessful. Please try again.
+        </mj-text>
+        <mj-text padding-bottom="0px">This could be a result of:</mj-text>
+        <mj-text padding-bottom="0px">
+          <ul>
+            <li>Insufficient funds</li>
+            <li>Invalid address usage or</li>
+            <li>Incorrect authentication</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0" mj-class="body-section">
+      <mj-column>
+        <mj-text font-size='16px' font-weight="700">Transaction Details</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-wrapper mj-class="body-section" padding-top="10px">
+      <mj-section background-color="#F9F9F9" padding-left="14px" padding-right="14px" padding-top="5px" padding-bottom="5px">
+        <mj-column padding="12px" width='50%'>
+          <mj-text>Transaction Amount</mj-text>
+        </mj-column>
+        <mj-column padding="12px" width='50%'>
+          <mj-text align='right'>USD 2,500</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding-left="14px" padding-right="14px" padding-top="0" padding-bottom="0">
+        <mj-divider
+          border-width="4px"
+          border-style="solid"
+          border-color="#ffffff"
+        />
+      </mj-section>
+
+      <mj-section background-color="#F9F9F9" padding-left="14px" padding-right="14px" padding-top="5px" padding-bottom="5px">
+        <mj-column padding="12px" width='50%'>
+          <mj-text>Reference</mj-text>
+        </mj-column>
+        <mj-column padding="12px" width='50%'>
+          <mj-text align='right'>Ufew34F3RT34GQVQ</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="14px" padding-right="14px" padding-top="0" padding-bottom="0">
+        <mj-divider
+          border-width="4px"
+          border-style="solid"
+          border-color="#ffffff"
+        />
+      </mj-section>
+
+      <mj-section background-color="#F9F9F9" padding-left="14px" padding-right="14px" padding-top="5px" padding-bottom="5px">
+        <mj-column padding="12px" width='50%'>
+          <mj-text>Wallet</mj-text>
+        </mj-column>
+        <mj-column padding="12px" width='50%'>
+          <mj-text align='right'>@MikeEbube</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="14px" padding-right="14px" padding-top="0" padding-bottom="0">
+        <mj-divider
+          border-width="4px"
+          border-style="solid"
+          border-color="#ffffff"
+        />
+      </mj-section>
+      
+      <mj-section background-color="#F9F9F9" padding-left="14px" padding-right="14px" padding-top="5px" padding-bottom="5px">
+        <mj-column padding="12px" width='50%'>
+          <mj-text>Date</mj-text>
+        </mj-column>
+        <mj-column padding="12px" width='50%'>
+          <mj-text align='right'>7th Dec 2024</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-text font-size='16px' font-weight="700">Important</mj-text>
+        <mj-text padding-bottom="20px">
+          If you have any issues with this transaction, you can contact our support team via email at <a class="link" 
+            style="text-decoration: none"
+            rel="noopener"
+            href="mailto:support@busha.co?subject=&body="
+            target="_blank">support@busha.co</a>, or chat with us via in-app chat.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

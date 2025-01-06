@@ -1,0 +1,53 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Complete your business verification to enjoy full access to Busha Business ⏳
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hello Damilare,</mj-text>
+        <mj-text padding-bottom="20px">Thank you for signing up for Busha Business! To get full access and start using our features, we need you to verify your business.</mj-text>
+        <mj-text padding-bottom="20px">This quick and easy process will help us protect you and ensure the integrity of our platform. To complete the verification process, please provide the necessary documents and details. Once your business is verified, you can continue using our services without any disruptions.</mj-text>
+        <mj-text padding-bottom="20px">To verify your business, please follow these steps:</mj-text>
+        <mj-text padding-bottom="0px">
+          <ol>
+            <li>Access your business verification page via this <a class='link'>link</a> [hyperlink]</li>
+            <li>Upload the following documents:
+              <ul>
+                <li>Proof of business address.</li>
+                <li>Certificate of Registration</li>
+                <li>CAC Status Report</li>
+              </ul>
+            </li>
+            <li>Review and submit your information.</li>
+          </ol>
+        </mj-text>
+        <mj-text>Upon receiving and verifying your documents, you can use Busha Business in live mode.</mj-text>
+          <mj-button
+            align="left"
+            inner-padding="14px 30px"
+          >
+            Verify business
+          </mj-button>
+        <mj-text padding-top="20px">If you have questions or need assistance, kindly contact our support team at <a class='link' 
+          style="text-decoration: none"
+          rel="noopener"
+          href="mailto:support@busha.co?subject=&body="
+          target="_blank">support@busha.co</a>. We're here to help you every step of the way.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+    <mj-include path="./components/footer-alt-new-nolinks.mjml" />
+  </mj-body>
+</mjml>

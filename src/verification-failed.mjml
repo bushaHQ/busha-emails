@@ -1,0 +1,50 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Your business verification failed 😞
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hello Damilare,</mj-text>
+        <mj-text padding-bottom="20px">We are sorry to inform you that your business verification was unsuccessful.</mj-text>
+        <mj-text padding-bottom="20px">Our team has reviewed your submitted documents and details and we are unable to proceed, for the following reasons:</mj-text>
+
+        <mj-text padding-bottom="20px">
+          <ul>
+            <li>Improper documents</li>
+            <li>Upload of blurry documents</li>
+            <li>File size too large</li>
+          </ul>
+        </mj-text>
+
+        <mj-text padding-bottom="20px" color='#B2B2B2'>
+          N/B: For Compliance team only: [You can customize the reasons according to your compliance rules]
+        </mj-text>
+        <mj-text>Click the button below to see why your verification was unsuccessful and take the necessary steps to verify your business.</mj-text>
+
+        <mj-button
+          align="left"
+          inner-padding="14px 30px"
+          padding-top="20px"
+        >
+        Retry verification
+        </mj-button>
+
+        <mj-text padding-top="20px">If you have questions or need assistance, kindly contact our support team at <a class='link'>support@busha.co</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+    <mj-include path="./components/footer-alt-new-nolinks.mjml" />
+  </mj-body>
+</mjml>

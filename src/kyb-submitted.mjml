@@ -1,0 +1,39 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >KYB Info Submitted
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi Team,</mj-text>
+        <mj-text padding-bottom="20px"><mj-text color='#F2F2F2'>[Business name]</mj-text> have submitted their KYB documents for review and verification.</mj-text>
+        <mj-text padding-bottom="20px">Please note, you can accept or reject business documents upon review.</mj-text>
+        <mj-text padding-bottom="0px">Thank you!</mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="body-section" width>
+      <mj-button
+        align="left"
+        href=""
+        inner-padding="14px 30px"
+      >
+      Review documents
+      </mj-button>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+    <mj-include path="./components/footer-alt-new-nolinks.mjml" />
+  </mj-body>
+</mjml>

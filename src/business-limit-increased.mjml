@@ -1,0 +1,30 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Your Business Limit Has Been Increased!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column >
+        <mj-text padding-bottom="20px">Hey there,</mj-text>
+        <mj-text padding-bottom="20px">
+          Your request for a business account limit has been granted and your business limit has been increased.
+        </mj-text>
+        <mj-text padding-bottom="20px">You can now create up to six (6) businesses on Busha Business. Log into your dashboard to start creating your businesses and receiving global payments immediately!</mj-text>
+        <mj-text>If you believe you received this email erroneously, please ignore.<mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

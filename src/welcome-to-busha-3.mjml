@@ -1,0 +1,36 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >New Business Created
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="60px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi, Damilare! </mj-text>
+        <mj-text padding-bottom="20px">Congratulations! You have created a new business (ArtByDamilare).You are now a step closer to taking your dreams to the moon.</mj-text>
+        <mj-text padding-bottom="20px"><a class='link' 
+          style="text-decoration: none"
+            rel="noopener"
+            href="#"
+            target="_blank">Complete your KYB</a> to verify your identity, and click here (link to portal) to create your first-ever invoice and receive payment from anywhere in the world using crypto.</mj-text>
+        <mj-text font-size='16px' font-weight="700">Important</mj-text>
+        <mj-text padding-bottom="20px">If you did not initiate this and believe someone else made this request, please get in touch with our support team immediately via in-app chat or at <a class='link' 
+          style="text-decoration: none"
+          rel="noopener"
+          href="mailto:support@busha.co?subject=&body="
+          target="_blank">support@busha.co</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./components/with-love.mjml" />
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>
