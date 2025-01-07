@@ -17,7 +17,7 @@
       <mj-column>
         <mj-text padding-bottom="20px">Hi Damilare,</mj-text>
         <mj-text padding-bottom="20px">You have just created your first ever Busha Business invoice! 🥳</mj-text>
-        <mj-text padding-bottom="20px">Your requested invoice is ready. Click <a class='link'>here</a> to access.</mj-text>
+        <mj-text padding-bottom="20px">Your requested invoice is ready. Click <a class='link' style="text-decoration: none">here</a> to access.</mj-text>
         <mj-text font-size='16px' font-weight="700">Important</mj-text>
         <mj-text padding-bottom="20px">
           If you have any issues with this transaction, you can contact our support team via email at <a class="link" 

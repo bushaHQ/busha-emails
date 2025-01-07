@@ -85,8 +85,8 @@
         Pay now
         </mj-button>
 
-        <mj-text padding-bottom="20px">To create your own payment links/invoices and receive global crypto payments, click <a class='link'>here</a> to get started.</mj-text>
-        <mj-text padding-bottom="20px">Join our newsletter <a class="link">here</a> to get more information on how to live more with crypto.</mj-text>
+        <mj-text padding-bottom="20px">To create your own payment links/invoices and receive global crypto payments, click <a class='link' style="text-decoration: none">here</a> to get started.</mj-text>
+        <mj-text padding-bottom="20px">Join our newsletter <a class="link" style="text-decoration: none">here</a> to get more information on how to live more with crypto.</mj-text>
       </mj-column>
     </mj-section>
 

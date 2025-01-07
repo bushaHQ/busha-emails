@@ -21,7 +21,7 @@
         <mj-text padding-bottom="20px">To verify your business, please follow these steps:</mj-text>
         <mj-text padding-bottom="0px">
           <ol>
-            <li>Access your business verification page via this <a class='link'>link</a> [hyperlink]</li>
+            <li>Access your business verification page via this <a class='link' style="text-decoration: none">link</a> [hyperlink]</li>
             <li>Upload the following documents:
               <ul>
                 <li>Certificate of Incorporation.</li>

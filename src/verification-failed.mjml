@@ -40,7 +40,11 @@
         Retry verification
         </mj-button>
 
-        <mj-text padding-top="20px">If you have questions or need assistance, kindly contact our support team at <a class='link'>support@busha.co</a>.</mj-text>
+        <mj-text padding-top="20px">If you have questions or need assistance, kindly contact our support team at <a class='link' 
+          style="text-decoration: none"  
+          rel="noopener"
+          href="mailto:support@busha.co?subject=&body="
+          target="_blank">support@busha.co</a>.</mj-text>
       </mj-column>
     </mj-section>
 

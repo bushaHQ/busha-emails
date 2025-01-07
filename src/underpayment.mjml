@@ -118,8 +118,8 @@
 
     <mj-section mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">To resolve any issues with the transaction, click <a class='link' href="#">here</a>.</mj-text>
-        <mj-text padding-bottom="20px" font-weight="700">You can also set up your payment threshold <a class='link' href="#">here</a> to avoid this from recurring.</mj-text>
+        <mj-text padding-bottom="20px">To resolve any issues with the transaction, click <a class='link' href="#" style="text-decoration: none">here</a>.</mj-text>
+        <mj-text padding-bottom="20px" font-weight="700">You can also set up your payment threshold <a class='link' href="#" style="text-decoration: none">here</a> to avoid this from recurring.</mj-text>
         <mj-text font-size='16px' font-weight="700">Important</mj-text>
         <mj-text padding-bottom="20px">
           If you have any issues with this transaction, you can contact our support team via email at <a class="link" style="text-decoration: none"

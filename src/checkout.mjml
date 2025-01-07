@@ -19,7 +19,7 @@
         <mj-text padding-bottom="20px">You have just created your first ever Busha Business Checkout!</mj-text>
         <mj-text padding-bottom="20px">What a rockstar! 🥳</mj-text>
         <mj-text padding-bottom="20px">You can access your checkout link below. </mj-text>
-        <mj-text padding-bottom="20px">Click <a class='link'>here</a> to return to your dashboard.</mj-text>
+        <mj-text padding-bottom="20px">Click <a class='link' style="text-decoration: none">here</a> to return to your dashboard.</mj-text>
         <mj-text padding-bottom="20px">If you believe you received this email erroneously, please ignore.</mj-text>
       </mj-column>
     </mj-section>

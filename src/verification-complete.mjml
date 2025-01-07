@@ -26,7 +26,7 @@
           </ul>
         </mj-text>
 
-        <mj-text><a class='link'>Log in</a> to your account to:</mj-text>
+        <mj-text><a class='link' style="text-decoration: none">Log in</a> to your account to:</mj-text>
 
         <mj-button
           align="left"
