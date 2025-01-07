@@ -7,24 +7,24 @@
 >
   <mj-column width="70%" padding="0" padding-left="0px" padding-right="0px">
     <mj-text align="left" font-size='10px'>
-      <a href="#" style="color: #666666; padding: 0 4px;">Home</a>
-      <a href="#" style="color: #666666; padding: 0 4px;">About</a>
-      <a href="#" style="color: #666666; padding: 0 4px;">Products</a>
-      <a href="#" style="color: #666666; padding: 0 4px;">Contact</a>
+      <a href="https://blog.busha.co/" style="color: #666666; padding: 0 4px;">Blog</a>
+      <a href="https://www.busha.ng/busha-commerce-privacy-policy" style="color: #666666; padding: 0 4px;">Policies</a>
+      <a href="https://www.busha.ng/busha-commerce-terms" style="color: #666666; padding: 0 4px;">Terms</a>
+      <a href="https://support.busha.co/en/collections/3657893-busha-commerce" style="color: #666666; padding: 0 4px;">Help Center</a>
     </mj-text>
     <mj-text
       font-size="12px"
       line-height="17px"
       css-class="copyright"
       padding-top="12px"
-      color='#666666'
+      color="#666666"
       >© {{year}} Busha Business, a product of Busha (RC 1495049).</mj-text
     >
     <mj-text 
       align="left" 
       font-size="12px"
       line-height="17px"
-      color='#666666'
+      color="#666666"
       padding-top="12px"
       css-class="copyright">All rights reserved.</mj-text>
   </mj-column>
