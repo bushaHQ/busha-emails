@@ -26,16 +26,13 @@
             <li>File size too large</li>
           </ul>
         </mj-text>
-
-        <mj-text padding-bottom="20px" color='#B2B2B2'>
-          N/B: For Compliance team only: [You can customize the reasons according to your compliance rules]
-        </mj-text>
         <mj-text>Click the button below to see why your verification was unsuccessful and take the necessary steps to verify your business.</mj-text>
 
         <mj-button
           align="left"
           inner-padding="14px 30px"
           padding-top="20px"
+          href='https://instant.busha.co/business-verification/profile'
         >
         Retry verification
         </mj-button>
@@ -49,6 +46,6 @@
     </mj-section>
 
     <mj-include path="./components/with-love-busha.mjml" />
-    <mj-include path="./components/footer-alt-new-nolinks.mjml" />
+    <mj-include path="./components/footer-alt.mjml" />
   </mj-body>
 </mjml>

@@ -26,8 +26,8 @@
     <mj-section mj-class="body-section" width>
       <mj-button
         align="left"
-        href=""
         inner-padding="14px 30px"
+        href='https://instant.busha.co/profile/verification-review'
       >
       Review documents
       </mj-button>

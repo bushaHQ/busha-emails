@@ -28,7 +28,7 @@
         <mj-text padding-bottom="20px">Please note that our verification process is designed to confirm you are a real user and ensure that you are in control of Busha Business.</mj-text>
 
         <mj-text padding-bottom="20px" padding-top="20px">
-        Kindly click <a class="link" style="text-decoration: none" href="https://accounts.busha.co/login">here</a> to restart your verification process and get the best out of Busha Business.</mj-text>
+        Kindly click <a class="link" style="text-decoration: none" href="https://instant.busha.co/business-verification/profile">here</a> to restart your verification process and get the best out of Busha Business.</mj-text>
       </mj-column>
     </mj-section>
 

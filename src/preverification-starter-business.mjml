@@ -21,7 +21,9 @@
         <mj-text padding-bottom="20px">To verify your business, please follow these steps:</mj-text>
         <mj-text padding-bottom="0px">
           <ol>
-            <li>Access your business verification page via this <a class='link' style="text-decoration: none">link</a> [hyperlink]</li>
+            <li>Access your business verification page via this <a class='link'
+              href='https://instant.busha.co/profile/verification-review'
+             style="text-decoration: none">link</a></li>
             <li>Upload the following documents:
               <ul>
                 <li>Proof of address.</li>
@@ -35,6 +37,8 @@
           <mj-button
             align="left"
             inner-padding="14px 30px"
+            padding-top="20px"
+            href='https://instant.busha.co/profile/verification-review'
           >
             Verify business
           </mj-button>
