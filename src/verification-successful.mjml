@@ -14,10 +14,10 @@
 
     <mj-section padding-top="40px" mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">Congratulations Damilare!  </mj-text>
+        <mj-text padding-bottom="20px">Congratulations {{first_name}}!  </mj-text>
         <mj-text padding-bottom="20px">Your verification is successful, and you’re on your way to creating your first-ever invoice and checkout.</mj-text>
         <mj-text padding-bottom="20px" padding-top="20px">Click 
-          <a class="link" style="text-decoration: none" href="https://accounts.busha.co/login">here</a> to get started! </mj-text>
+          <a class="link" style="text-decoration: none" href="{{login_url}}">here</a> to get started! </mj-text>
       </mj-column>
     </mj-section>
 

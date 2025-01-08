@@ -15,7 +15,7 @@
 
     <mj-section padding-top="20px" mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">Hello Damilare,</mj-text>
+        <mj-text padding-bottom="20px">Hello {{first_name}},</mj-text>
         <mj-text padding-bottom="20px">We are pleased to inform you that your business verification is in progress. We are currently reviewing your documents and will notify you once the verification process is completed.</mj-text>
         <mj-text padding-bottom="20px">Once verified, you will gain full access to Busha Business, enabling you to receive payments and carry out withdrawals seamlessly.</mj-text>
 

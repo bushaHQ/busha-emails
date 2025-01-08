@@ -15,13 +15,19 @@
 
     <mj-section padding-top="20px" mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">Hello Damilare,</mj-text>
+        <mj-text padding-bottom="20px">Hello {{first_name}},</mj-text>
         <mj-text padding-bottom="20px">Thank you for signing up for Busha Business! To get full access and start using our features, we need you to verify your business.</mj-text>
         <mj-text padding-bottom="20px">This quick and easy process will help us protect you and ensure the integrity of our platform. To complete the verification process, please provide the necessary documents and details. Once your business is verified, you can continue using our services without any disruptions.</mj-text>
         <mj-text padding-bottom="20px">To verify your business, please follow these steps:</mj-text>
         <mj-text padding-bottom="0px">
           <ol>
-            <li>Access your business verification page via this <a class='link' style="text-decoration: none">link</a> [hyperlink]</li>
+            <li>Access your business verification page via this <a 
+              class='link' 
+              style="text-decoration: none"
+              rel="noopener"
+              href="{{complete_kyb_link}}"
+              target="_blank"
+              >link</a></li>
             <li>Upload the following documents:
               <ul>
                 <li>Proof of business address.</li>
@@ -36,6 +42,8 @@
           <mj-button
             align="left"
             inner-padding="14px 30px"
+            padding-top="20px"
+            href="{{complete_kyb_link}}"
           >
             Verify business
           </mj-button>

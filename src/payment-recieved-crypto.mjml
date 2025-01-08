@@ -14,7 +14,7 @@
 
     <mj-section padding-top="20px" mj-class="body-section">
       <mj-column >
-        <mj-text padding-bottom="20px">Hi Damilare!</mj-text>
+        <mj-text padding-bottom="20px">Hi {{first_name}}!</mj-text>
         <mj-text padding-bottom="20px">
           You have made a payment of <mj-text style="font-weight: 700">NGN 50,000</mj-text> to [Merchant name]. 
         </mj-text>

@@ -15,13 +15,16 @@
 
     <mj-section padding-top="20px" mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">Hello Damilare,</mj-text>
+        <mj-text padding-bottom="20px">Hello {{first_name}},</mj-text>
         <mj-text padding-bottom="20px">We regret to notify you that we are unable to continue the verification procedure. This is because you failed our compliance critical check.</mj-text>
         <mj-text padding-bottom="20px">Unfortunately, we cannot allow you to re-upload your documents, and you will not be able to use our platform. Your business account will be closed after (insert number of days) days.</mj-text>
 
         <mj-button
           align="left"
           inner-padding="14px 30px"
+          rel="noopener"
+          href="mailto:support@busha.co?subject=&body="
+          target="_blank"
         >
         Contact support
         </mj-button>
@@ -30,7 +33,8 @@
           style="text-decoration: none"
             rel="noopener"
             href="mailto:support@busha.co?subject=&body="
-            target="_blank">support@busha.co</a>.</mj-text>
+            target="_blank"
+          >support@busha.co</a>.</mj-text>
       </mj-column>
     </mj-section>
 

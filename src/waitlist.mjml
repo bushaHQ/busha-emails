@@ -15,7 +15,7 @@
 
     <mj-section padding-top="20px" mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">Hi Damilare, </mj-text>
+        <mj-text padding-bottom="20px">Hi {{first_name}}, </mj-text>
         <mj-text padding-bottom="20px" font-weight="700">Busha Business is coming soon!</mj-text>
         <mj-text padding-bottom="20px">Thank you for joining the waitlist for Busha Business! You’re currently #001 in line to get access. </mj-text>
         <mj-text padding-bottom="20px">You will be notified once you have been granted access.</mj-text>

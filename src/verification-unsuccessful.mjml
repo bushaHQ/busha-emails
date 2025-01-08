@@ -14,7 +14,7 @@
 
     <mj-section padding-top="40px" mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">Hi Damilare!</mj-text>
+        <mj-text padding-bottom="20px">Hi {{first_name}}!</mj-text>
         <mj-text padding-bottom="20px">Your verification was unsuccessful. </mj-text>
         <mj-text padding-bottom="20px">This may be due to:
           <ul>
@@ -28,7 +28,7 @@
         <mj-text padding-bottom="20px">Please note that our verification process is designed to confirm you are a real user and ensure that you are in control of Busha Business.</mj-text>
 
         <mj-text padding-bottom="20px" padding-top="20px">
-        Kindly click <a class="link" style="text-decoration: none" href="https://instant.busha.co/business-verification/profile">here</a> to restart your verification process and get the best out of Busha Business.</mj-text>
+        Kindly click <a class="link" style="text-decoration: none" href="{{restart_verification_url}}">here</a> to restart your verification process and get the best out of Busha Business.</mj-text>
       </mj-column>
     </mj-section>
 

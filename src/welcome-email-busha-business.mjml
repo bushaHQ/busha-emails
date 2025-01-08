@@ -24,7 +24,7 @@
     <mj-section mj-class="body-section" width>
       <mj-button
         align="left"
-        href="https://instant.busha.co/business-verification/profile"
+        href="{{get_started_url}}"
         inner-padding="14px 30px"
       >
       Get started

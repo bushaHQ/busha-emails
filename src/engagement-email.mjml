@@ -15,7 +15,7 @@
 
     <mj-section padding-top="20px" mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">Hi Damilare, </mj-text>
+        <mj-text padding-bottom="20px">Hi {{first_name}}, </mj-text>
         <mj-text padding-bottom="20px">Imagine a world where you can receive crypto payments for your products from anywhere without any restrictions. Busha is always finding ways to improve its customer's experience, which is why we are introducing  Busha Business.</mj-text>
         <mj-text padding-bottom="0px" font-weight="700">Introducing Busha Business </mj-text>
         <mj-text padding-bottom="20px">Busha Business is a new product that allows business owners to receive crypto payments from anywhere in the world. This means your business can now be global!</mj-text>

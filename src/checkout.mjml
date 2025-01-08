@@ -15,7 +15,7 @@
 
     <mj-section padding-top="60px" mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">Hi Damilare,</mj-text>
+        <mj-text padding-bottom="20px">Hi {{first_name}},</mj-text>
         <mj-text padding-bottom="20px">You have just created your first ever Busha Business Checkout!</mj-text>
         <mj-text padding-bottom="20px">What a rockstar! 🥳</mj-text>
         <mj-text padding-bottom="20px">You can access your checkout link below. </mj-text>

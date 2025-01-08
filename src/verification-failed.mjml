@@ -15,7 +15,7 @@
 
     <mj-section padding-top="20px" mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">Hello Damilare,</mj-text>
+        <mj-text padding-bottom="20px">Hello {{first_name}},</mj-text>
         <mj-text padding-bottom="20px">We are sorry to inform you that your business verification was unsuccessful.</mj-text>
         <mj-text padding-bottom="20px">Our team has reviewed your submitted documents and details and we are unable to proceed, for the following reasons:</mj-text>
 
@@ -32,7 +32,7 @@
           align="left"
           inner-padding="14px 30px"
           padding-top="20px"
-          href='https://instant.busha.co/business-verification/profile'
+          href="{{retry_verification_url}}"
         >
         Retry verification
         </mj-button>

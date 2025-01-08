@@ -14,7 +14,7 @@
 
     <mj-section padding-top="20px" mj-class="body-section">
       <mj-column >
-        <mj-text padding-bottom="20px">Hi Damilare!</mj-text>
+        <mj-text padding-bottom="20px">Hi {{first_name}}!</mj-text>
         <mj-text padding-bottom="20px">
         You have successfully recovered your account <mj-text style="color: #b2b2b2">[Business name]</mj-text> , and can now use the Busha Business services.
         </mj-text>

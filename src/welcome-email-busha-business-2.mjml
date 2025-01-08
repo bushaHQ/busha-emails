@@ -15,12 +15,17 @@
 
     <mj-section padding-top="60px" mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">Hi, Damilare! </mj-text>
+        <mj-text padding-bottom="20px">Hi, {{first_name}}! </mj-text>
         <mj-text padding-bottom="20px">I am Michael Adeyeri, the CEO at Busha.</mj-text>
         <mj-text padding-bottom="20px">On behalf of the entire team, we are thrilled that you have chosen to join the Busha Tribe and take your business to the global level it deserves! </mj-text>
         <mj-text padding-bottom="20px">Our vision as a business has always been to onboard more people like yourself into the crypto economy, showing you that crypto can work for YOU! So, congratulations on taking this bold step to receive global payments in cryptocurrency.</mj-text>
         <mj-text padding-bottom="20px">We will be here to hold your hand and walk you through the process of getting the best out of Busha Business through the emails we will be sharing. Please lean on us by reading these emails.</mj-text>
-        <mj-text padding-bottom="20px">To help you get started, here’s a <mj-text style="color: #12A232">demo</mj-text> <mj-text style="color: #B2B2B2">(link to demo)</mj-text> to guide you.</mj-text>
+        <mj-text padding-bottom="20px">To help you get started, here’s a <a 
+          class='link' 
+          target="_blank"
+          rel="noopener"
+          style="text-decoration: none" 
+          href="{{demo_link}}">demo</a> to guide you.</mj-text>
       </mj-column>
     </mj-section>
     <mj-include path="./components/with-love.mjml" />

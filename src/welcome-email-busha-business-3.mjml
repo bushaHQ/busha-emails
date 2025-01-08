@@ -14,13 +14,15 @@
 
     <mj-section padding-top="60px" mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">Hi, Damilare! </mj-text>
-        <mj-text padding-bottom="20px">Congratulations! You have created a new business (ArtByDamilare).You are now a step closer to taking your dreams to the moon.</mj-text>
-        <mj-text padding-bottom="20px"><a class='link' 
-          style="text-decoration: none"
+        <mj-text padding-bottom="20px">Hi, {{first_name}}! </mj-text>
+        <mj-text padding-bottom="20px">Congratulations! You have created a new business ({{business_name}}).You are now a step closer to taking your dreams to the moon.</mj-text>
+        <mj-text padding-bottom="20px">
+          <a class='link' 
+            style="text-decoration: none"
             rel="noopener"
-            href="#"
-            target="_blank">Complete your KYB</a> to verify your identity, and click here (link to portal) to create your first-ever invoice and receive payment from anywhere in the world using crypto.</mj-text>
+            href="{{complete_kyb_link}}"
+            target="_blank">Complete your KYB
+          </a> to verify your identity, and click here (link to portal) to create your first-ever invoice and receive payment from anywhere in the world using crypto.</mj-text>
         <mj-text font-size='16px' font-weight="700">Important</mj-text>
         <mj-text padding-bottom="20px">If you did not initiate this and believe someone else made this request, please get in touch with our support team immediately via in-app chat or at <a class='link' 
           style="text-decoration: none"

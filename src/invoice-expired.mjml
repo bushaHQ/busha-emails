@@ -15,7 +15,7 @@
 
     <mj-section padding-top="20px" mj-class="body-section">
       <mj-column>
-        <mj-text padding-bottom="20px">Hi Damilare,</mj-text>
+        <mj-text padding-bottom="20px">Hi {{first_name}},</mj-text>
         <mj-text padding-bottom="20px">
           Your invoice <mj-text style="color: #b2b2b2">(reference ID)</mj-text> for <mj-text style="color: #b2b2b2">[Insert customer name]</mj-text> is due for payment on <mj-text style="font-weight: 700">20/12/2024.</mj-text>
         </mj-text>
