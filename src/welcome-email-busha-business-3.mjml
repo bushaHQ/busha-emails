@@ -15,20 +15,23 @@
     <mj-section padding-top="60px" mj-class="body-section">
       <mj-column>
         <mj-text padding-bottom="20px">Hi, {{first_name}}! </mj-text>
-        <mj-text padding-bottom="20px">Congratulations! You have created a new business ({{business_name}}). You are now a step closer to taking your dreams to the moon.</mj-text>
-        <mj-text padding-bottom="20px">
-          <a class='link' 
+        <mj-text>Congratulations on creating your new business, <mj-text style="font-weight: 700">{{business_name}}</mj-text>!
+        </mj-text>
+        <mj-text padding-bottom="20px">You are now a step closer to taking your dreams to the moon. </mj-text>
+        
+        <mj-text font-weight="700">What’s next?</mj-text>
+        <mj-text padding-bottom="20px">Complete your KYB (verify your identity) by clicking <a class='link' 
             href="{{complete_kyb_link}}"
-            style="text-decoration: none"
             rel="noopener"
             target="_blank"
-            >Complete your KYB
-          </a> to verify your identity, and click <a class='link' 
-            style="text-decoration: none" 
-            href="{{app_url}}"
+            >here
+          </a> Make your first move. Click <a class='link' 
+            href="{{new_invoice_url}}"
             rel="noopener"
             target="_blank"
-          >here</a> to create your first-ever invoice and receive payment from anywhere in the world using crypto.</mj-text>
+            >here
+          </a> to create your first invoice and start accepting payments from anywhere worldwide—using crypto!</mj-text>
+       
         <mj-text font-size='16px' font-weight="700">Important</mj-text>
         <mj-text padding-bottom="20px">If you did not initiate this and believe someone else made this request, please get in touch with our support team immediately via in-app chat or at <a class='link' 
           style="text-decoration: none"
