@@ -21,9 +21,11 @@
 
         <mj-text padding-bottom="20px">
           <ul>
-            <li>Improper documents</li>
-            <li>Upload of blurry documents</li>
-            <li>File size too large</li>
+            {{#each reasons}}
+              <mj-column>
+                <li>{{this}}</li>
+              </mj-column>
+            {{/each}}
           </ul>
         </mj-text>
         <mj-text>Click the button below to see why your verification was unsuccessful and take the necessary steps to verify your business.</mj-text>
