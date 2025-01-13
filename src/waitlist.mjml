@@ -1,0 +1,40 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >You’re on the waitlist for Busha Business - Beta!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi {{first_name}}, </mj-text>
+        <mj-text padding-bottom="20px" font-weight="700">Busha Business is coming soon!</mj-text>
+        <mj-text padding-bottom="20px">Thank you for joining the waitlist for Busha Business! You’re currently #001 in line to get access. </mj-text>
+        <mj-text padding-bottom="20px">You will be notified once you have been granted access.</mj-text>
+        <mj-text padding-bottom="0px">Need any help from us? You can chat with our customer support representatives in-app.</mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="body-section" width>
+      <mj-button
+        align="left"
+        href=""
+        inner-padding="14px 30px"
+      >
+      Learn more
+      </mj-button>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

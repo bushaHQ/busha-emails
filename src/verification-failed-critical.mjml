@@ -1,0 +1,44 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Your business verification failed 😞
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hello {{first_name}},</mj-text>
+        <mj-text padding-bottom="20px">We regret to notify you that we are unable to continue the verification procedure. This is because you failed our compliance critical check.</mj-text>
+        <mj-text padding-bottom="20px">Unfortunately, we cannot allow you to re-upload your documents, and you will not be able to use our platform. Your business account will be closed after (insert number of days) days.</mj-text>
+
+        <mj-button
+          align="left"
+          inner-padding="14px 30px"
+          rel="noopener"
+          href="mailto:support@busha.co?subject=&body="
+          target="_blank"
+        >
+        Contact support
+        </mj-button>
+
+        <mj-text padding-top="20px">If you have questions or need assistance, kindly contact our support team at <a class='link' 
+          style="text-decoration: none"
+            rel="noopener"
+            href="mailto:support@busha.co?subject=&body="
+            target="_blank"
+          >support@busha.co</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+    <mj-include path="./components/footer-alt-new-nolinks.mjml" />
+  </mj-body>
+</mjml>

@@ -1,0 +1,53 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Your business verification failed 😞
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hello {{first_name}},</mj-text>
+        <mj-text padding-bottom="20px">We are sorry to inform you that your business verification was unsuccessful.</mj-text>
+        <mj-text padding-bottom="20px">Our team has reviewed your submitted documents and details and we are unable to proceed, for the following reasons:</mj-text>
+
+        <mj-text padding-bottom="20px">
+          <ul>
+            {{#each reasons}}
+              <mj-column>
+                <li>{{this}}</li>
+              </mj-column>
+            {{/each}}
+          </ul>
+        </mj-text>
+        <mj-text>Click the button below to see why your verification was unsuccessful and take the necessary steps to verify your business.</mj-text>
+
+        <mj-button
+          align="left"
+          inner-padding="14px 30px"
+          padding-top="20px"
+          href="{{retry_verification_url}}"
+        >
+        Retry verification
+        </mj-button>
+
+        <mj-text padding-top="20px">If you have questions or need assistance, kindly contact our support team at <a class='link' 
+          style="text-decoration: none"  
+          rel="noopener"
+          href="mailto:support@busha.co?subject=&body="
+          target="_blank">support@busha.co</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+    <mj-include path="./components/footer-alt.mjml" />
+  </mj-body>
+</mjml>

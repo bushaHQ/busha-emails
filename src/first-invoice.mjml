@@ -1,0 +1,36 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >
+          Your First Invoice Is Ready!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi {{first_name}},</mj-text>
+        <mj-text padding-bottom="20px">You have just created your first ever Busha Business invoice! 🥳</mj-text>
+        <mj-text padding-bottom="20px">Your requested invoice is ready. Click <a class='link' href='' style="text-decoration: none">here</a> to access.</mj-text>
+        <mj-text font-size='16px' font-weight="700">Important</mj-text>
+        <mj-text padding-bottom="20px">
+          If you have any issues with this transaction, you can contact our support team via email at <a class="link" 
+          style="text-decoration: none"
+            rel="noopener"
+            href="mailto:support@busha.co?subject=&body="
+            target="_blank">support@busha.co</a>, or chat with us via in-app chat.</mj-text>
+        <mj-text>If you believe you received this email erroneously, please ignore.</mj-text>
+        
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

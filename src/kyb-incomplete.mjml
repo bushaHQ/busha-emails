@@ -1,0 +1,36 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >KYB Incomplete
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="40px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi {{first_name}},</mj-text>
+        <mj-text padding-bottom="20px">We can’t wait to help you get started with receiving global crypto payments. All that’s holding you back is this button:</mj-text>
+        <mj-button
+          align="left"
+          href="{{complete_kyb_link}}"
+          inner-padding="14px 30px"
+        >
+        Get started
+        </mj-button>x
+        <mj-text padding-bottom="20px" padding-top="20px">Our verification process is designed to ensure that you are a real user, and that you are in control of setting up your own Busha Business. </mj-text>
+        <mj-text padding-bottom="20px">Complete the process now and start receiving crypto payments from all over the world.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

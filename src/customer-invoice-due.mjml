@@ -1,0 +1,97 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >
+          Your invoice from <mj-text style="color: #b2b2b2">[Merchant’s name]</mj-text> is due for payment!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column >
+        <mj-text padding-bottom="20px">Hey there,</mj-text>
+        <mj-text padding-bottom="20px">
+          Your invoice from <mj-text style="color: #b2b2b2">[Merchant’s name].</mj-text> is due for payment.
+        </mj-text>
+        <mj-text padding-bottom="20px">Please click the link below to access the payment link and invoice.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0" mj-class="body-section">
+      <mj-column>
+        <mj-text font-size='16px' font-weight="700">Invoice Details</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-wrapper mj-class="body-section" padding-top="10px">
+      <mj-section background-color="#F9F9F9" padding-left="14px" padding-right="14px" padding-top="5px" padding-bottom="5px">
+        <mj-column padding="12px" width='50%'>
+          <mj-text>Invoice Amount</mj-text>
+        </mj-column>
+        <mj-column padding="12px" width='50%'>
+          <mj-text align='right'>USD 2,500</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding-left="14px" padding-right="14px" padding-top="0" padding-bottom="0">
+        <mj-divider
+          border-width="4px"
+          border-style="solid"
+          border-color="#ffffff"
+        />
+      </mj-section>
+
+      <mj-section background-color="#F9F9F9" padding-left="14px" padding-right="14px" padding-top="5px" padding-bottom="5px">
+        <mj-column padding="12px" width='50%'>
+          <mj-text>Reference</mj-text>
+        </mj-column>
+        <mj-column padding="12px" width='50%'>
+          <mj-text align='right'>Ufew34F3RT34GQVQ</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="14px" padding-right="14px" padding-top="0" padding-bottom="0">
+        <mj-divider
+          border-width="4px"
+          border-style="solid"
+          border-color="#ffffff"
+        />
+      </mj-section>
+      
+      <mj-section background-color="#F9F9F9" padding-left="14px" padding-right="14px" padding-top="5px" padding-bottom="5px">
+        <mj-column padding="12px" width='50%'>
+          <mj-text>Due Date</mj-text>
+        </mj-column>
+        <mj-column padding="12px" width='50%'>
+          <mj-text align='right' color="#E94A3F">7th Dec 2024</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section mj-class="body-section">
+      <mj-column>
+        <mj-button
+          align="left"
+          href=""
+          inner-padding="14px 30px"
+          padding-bottom="20px"
+        >
+        Pay now
+        </mj-button>
+
+        <mj-text padding-bottom="20px">To create your own payment links/invoices and receive global crypto payments, click <a class='link' style="text-decoration: none">here</a> to get started.</mj-text>
+        <mj-text padding-bottom="20px">Join our newsletter <a class="link" style="text-decoration: none">here</a> to get more information on how to live more with crypto.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

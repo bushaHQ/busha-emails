@@ -1,0 +1,40 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Make at least one of your Cryptocurrencies Active!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column >
+        <mj-text padding-bottom="20px">Hi {{first_name}}!</mj-text>
+        <mj-text padding-bottom="20px">
+        We noticed you have turned off your Active Payment settings. 
+        </mj-text>
+        <mj-text padding-bottom="20px">You are now offline and will not be able to receive payments from any customer.</mj-text>
+        <mj-text padding-bottom="20px" font-weight="700">Please note that at least one cryptocurrency has to be active to receive payments.</mj-text>
+        
+        <mj-button
+          align="left"
+          href=""
+          inner-padding="14px 30px"
+          padding-bottom="20px"
+        >
+        Activate your cryptocurrency
+        </mj-button>
+        <mj-text>Thank you for choosing Busha.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

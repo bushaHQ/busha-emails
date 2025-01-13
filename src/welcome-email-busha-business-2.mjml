@@ -1,0 +1,31 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Welcome to Busha Business!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="60px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi, {{first_name}}! </mj-text>
+        <mj-text padding-bottom="20px">Welcome to Busha Business!</mj-text>
+        <mj-text padding-bottom="20px">I'm Michael Adeyeri, CEO at Busha, and I’m thrilled to have you join us.</mj-text>
+        <mj-text padding-bottom="20px">At Busha Business, we're here to take your dreams (and your business) all the way to the moon! While many see the moon as the peak, we see it as just the beginning. We can't wait for you to explore the amazing features we've built to help you thrive in the crypto economy.</mj-text>
+        <mj-text padding-bottom="20px">By joining us, you’re unlocking a world of opportunities to receive global payments seamlessly in crypto! We're here to hold your hands every step of the way, ensuring you truly Live More With Crypto!</mj-text>
+        <mj-text padding-bottom="30px">Once again, welcome to Busha Business!</mj-text>
+        <mj-text>WAGMI!</mj-text>
+        <mj-text padding-bottom="20px">Micheal.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

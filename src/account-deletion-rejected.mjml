@@ -45,12 +45,10 @@
           >If you didn’t initiate this request or require assistance, please
           contact support immediately via in-app chat or at
           <a
-            rel="noopener"
             href="mailto:support@busha.co?subject=&body="
-            target="_blank"
             class="link"
             >support@busha.co</a
-          >.
+          >
         </mj-text>
         <mj-text> #LiveMoreWithCrypto, </mj-text>
         <mj-text> Busha Support 💚. </mj-text>

@@ -1,0 +1,40 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Invoice is about to Expire!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi {{first_name}},</mj-text>
+        <mj-text padding-bottom="20px">
+          Your invoice <mj-text style="color: #b2b2b2">(reference ID)</mj-text> for <mj-text style="color: #b2b2b2">[Insert customer name]</mj-text> is due for payment on <mj-text style="font-weight: 700">20/12/2024.</mj-text>
+        </mj-text>
+        <mj-text padding-bottom="0px">Please reach out to customer to make payment.</mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="body-section" width>
+      <mj-button
+        align="left"
+        href=""
+        inner-padding="14px 30px"
+      >
+      Contact customer
+      </mj-button>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

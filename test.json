@@ -1,0 +1,144 @@
+{
+    "emails": {
+        "welcome-email-busha-business": {
+            "id": "d-aaf1311b8fff420e82735118272c57bd",
+            "variables": {
+                "get_started_url",
+            }
+        },
+        {
+            "welcome-email-busha-business-2": {
+                "id": "d-bae326bd94904dc887db4509b7094b63",
+                "variables": {
+                    "demo_link",
+                    "first_name"
+                }
+            }
+        },
+        {
+            "welcome-email-busha-business-3": {
+                "id": "d-24f18416206f4965b372989ae563c6d8",
+                "variables": {
+                    "demo_link",
+                    "complete_kyb_link",
+                    "business_name"
+                }
+            }
+        },
+        {
+            "kyb-incomplete": {
+                "id": "d-704af00b6f224ec1bafebf321cff44d0",
+                "variables": {
+                    "complete_kyb_link",
+                    "first_name"
+                }
+            }
+        },
+        {
+            "kyb-successful": {
+                "id": "d-3b86f3fdddfc467e8a64e4437bf547c0",
+                "variables": {
+                    "first_name",
+                    "login_url"
+                }
+            }
+        },
+        {
+            "kyb-unsuccessful": {
+                "id": "d-8647619ee4cb49f88a0ef67e493a7f60",
+                "variables": {
+                    "restart_verification_url",
+                    "first_name"
+                }
+            }
+        },
+        {
+            "preverification-registered-business": {
+                "id": "d-c36d88f4690246baa73d8c42b7d06a26",
+                "variables": {
+                    "complete_kyb_link",
+                    "first_name"
+                }
+            }
+        },
+        {
+            "preverification-registered-companies": {
+                "id": "d-3905a8b84a7f43e496295f803e7e3b13",
+                "variables": {
+                    "complete_kyb_link",
+                    "first_name"
+                }
+            }
+        },
+        {
+            "preverification-registered-incorporated-trustees": {
+                "id": "d-124389f5b19b430c9fc0c4177e24e89a",
+                "variables": {
+                    "complete_kyb_link",
+                    "first_name"
+                }
+            }
+        },
+        {
+            "preverification-starter-business": {
+                "id": "d-390024c6ab504a6084cc975241a4a689",
+                "variables": {
+                    "complete_kyb_link",
+                    "first_name"
+                }
+            }
+        },
+        {
+            "verification-in-progress": {
+                "id": "d-450184ce3d3544ec85927ad6016599d7",
+                "variables": {
+                    "first_name"
+                }
+            }
+        },
+        {
+            "verification-failed": {
+                "id": "d-9b0788c96fda46ffa84f294ab1d06465",
+                "variables": {
+                    "retry_verification_url",
+                    "first_name"
+                }
+            }
+        },
+        {
+            "verification-failed-critical": {
+                "id": "d-dbab830249204f9fad9189c64175ff66",
+                "variables": {
+                    "first_name"
+                }
+            }
+        },
+        {
+            "verifiaction-unsuccessful": {
+                "id": "d-3e9276b2757440c681d5591360dcce39",
+                "variables": {
+                    "restart_verification_url",
+                    "first_name"
+                }
+            }
+        },
+        {
+            "": {
+                "id": "d-8647619ee4cb49f88a0ef67e493a7f60",
+                "variables": {
+                    "complete_kyb_link",
+                    "first_name"
+                }
+            }
+        },
+        {
+            "": {
+                "id": "d-8647619ee4cb49f88a0ef67e493a7f60",
+                "variables": {
+                    "complete_kyb_link",
+                    "first_name"
+                }
+            }
+        },
+    }
+}

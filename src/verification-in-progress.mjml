@@ -1,0 +1,33 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Your business verification is in progress! 🥳
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hello {{first_name}},</mj-text>
+        <mj-text padding-bottom="20px">We are pleased to inform you that your business verification is in progress. We are currently reviewing your documents and will notify you once the verification process is completed.</mj-text>
+        <mj-text padding-bottom="20px">Once verified, you will gain full access to Busha Business, enabling you to receive payments and carry out withdrawals seamlessly.</mj-text>
+
+        <mj-text padding-top="0px">If you have questions or need assistance, kindly contact our support team at <a class='link' 
+          style="text-decoration: none"
+          rel="noopener"
+          href="mailto:support@busha.co?subject=&body="
+          target="_blank">support@busha.co</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+    <mj-include path="./components/footer-alt-new-nolinks.mjml" />
+  </mj-body>
+</mjml>

@@ -1,0 +1,46 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >New Business Created
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="60px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi, {{first_name}}! </mj-text>
+        <mj-text>Congratulations on creating your new business, <mj-text style="font-weight: 700">{{business_name}}</mj-text>!
+        </mj-text>
+        <mj-text padding-bottom="20px">You are now a step closer to taking your dreams to the moon. </mj-text>
+        
+        <mj-text font-weight="700">What’s next?</mj-text>
+        <mj-text padding-bottom="20px">Complete your KYB (verify your identity) by clicking <a class='link' 
+            href="{{complete_kyb_link}}"
+            rel="noopener"
+            target="_blank"
+            >here
+          </a> Make your first move. Click <a class='link' 
+            href="{{new_invoice_url}}"
+            rel="noopener"
+            target="_blank"
+            >here
+          </a> to create your first invoice and start accepting payments from anywhere worldwide—using crypto!</mj-text>
+       
+        <mj-text font-size='16px' font-weight="700">Important</mj-text>
+        <mj-text padding-bottom="20px">If you did not initiate this and believe someone else made this request, please get in touch with our support team immediately via in-app chat or at <a class='link' 
+          style="text-decoration: none"
+          rel="noopener"
+          href="mailto:support@busha.co?subject=&body="
+          target="_blank">support@busha.co</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./components/with-love.mjml" />
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>

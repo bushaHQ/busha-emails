@@ -1,0 +1,45 @@
+<mjml>
+  <mj-include path="./components/head.mjml" />
+
+  <mj-body>
+    <mj-include path="./components/logo.mjml" />
+
+    <mj-section mj-class="body-section" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700" line-height="140%"
+          >Introduction to Busha Business Beta
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="20px" mj-class="body-section">
+      <mj-column>
+        <mj-text padding-bottom="20px">Hi {{first_name}}, </mj-text>
+        <mj-text padding-bottom="20px">Imagine a world where you can receive crypto payments for your products from anywhere without any restrictions. Busha is always finding ways to improve its customer's experience, which is why we are introducing  Busha Business.</mj-text>
+        <mj-text padding-bottom="0px" font-weight="700">Introducing Busha Business </mj-text>
+        <mj-text padding-bottom="20px">Busha Business is a new product that allows business owners to receive crypto payments from anywhere in the world. This means your business can now be global!</mj-text>
+
+        <mj-text padding-bottom="0px" font-weight="700">What can Busha Business do for you?</mj-text>
+        <mj-text padding-bottom="0px">
+          <ul>
+            <li>
+              <b>Sell a product and receive payments globally</b> -  With Busha Business, you can sell products to customers, upload images of said products and receive payments globally with up to six cryptocurrencies. 
+            </li>
+            <li><b>Create custom invoices and email them directly to your customers</b> - You can create custom invoices with payout links for your customers, making payments easier. </li>
+            <li><b>Accept cryptocurrency directly from donors</b> - With Busha Business, donors can pay directly into your wallet without any hassles. </li>
+            <li><b>Add up to three businesses to your account</b> - Having more than one business is not an issue. You can add up to three businesses to your account, and if you need to add up to six, simply contact our support team via in-app chat or <a class='link' 
+              style="text-decoration: none"
+              rel="noopener"
+              href="mailto:support@busha.co?subject=&body="
+              target="_blank">support@busha.co.</a></li>
+          </ul>
+        </mj-text>
+        <mj-text>Thank you for being one of the first to test this product. We’ll be in touch with you soon.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/with-love-busha.mjml" />
+    <mj-include path="./components/footer-alt-new.mjml" />
+  </mj-body>
+</mjml>
